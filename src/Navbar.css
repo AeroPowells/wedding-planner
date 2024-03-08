@@ -1,0 +1,36 @@
+
+.navbar {
+  background-color: var(--secondary-color); /* Champagne background */
+  padding: 15px 20px;   
+  display: flex;         
+  align-items: center;  
+  justify-content: space-between; 
+  position: fixed;      /* Make it fixed to the top */
+  top: 0;
+  width: 100%;          /* Ensure it spans the full width */
+  z-index: 10;          /* Make sure it's on top of other content */
+  
+}
+
+.nav-links {
+  list-style: none;     /* Remove bullet points from the list */
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block; /* Arrange links horizontally */
+  margin-right: 20px;    /* Add spacing between links */
+}
+
+.nav-links a {
+  color: #D8B4E2;       /* Lilac color for links */
+  text-decoration: none; /* Remove underlines */
+}
+
+.logo img {
+  width: 50%; /* Adjust the size as needed */
+  height: 50px;
+       /* Maintain aspect ratio */
+}
+
